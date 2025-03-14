@@ -38,9 +38,9 @@ In order to create a stack, we must import java.util.stack package and use the S
 ```
 
 
-> The Stack class in Java is a legacy class and inherits from Vector in Java.
-> It is a thread-safe class and hence involves overhead when we do not need thread safety.
-> It is recommended to use ArrayDeque for stack implementation as it is more efficient in a single-threaded environment.
+The Stack class in Java is a legacy class and inherits from Vector in Java.
+It is a thread-safe class and hence involves overhead when we do not need thread safety.
+It is recommended to use ArrayDeque for stack implementation as it is more efficient in a single-threaded environment.
 
 One more reason to use Deque over Stack is Deque has the ability to use streams convert to list with keeping LIFO concept applied while Stack does not.
 
